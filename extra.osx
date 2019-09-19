@@ -7,4 +7,5 @@ else
   # eval $(gpg-agent --daemon --log-file /tmp/gpg.log --write-env-file ~/.gnupg/gpg-agent.env --pinentry-program /usr/local/bin/pinentry-mac)
 fi
 
-export PATH="$HOME/Library/Python/$(python3 --version | cut -d ' ' -f 2 | cut -d '.' -f1,2)/bin:$PATH"
+export PATH="$HOME/Library/Python/$(python2 --version 2>&1 | cut -d ' ' -f 2 | cut -d '.' -f1,2)/bin:$PATH"
+export PATH="$HOME/Library/Python/$(python3 --version 2>&1 | cut -d ' ' -f 2 | cut -d '.' -f1,2)/bin:$PATH"
