@@ -1,4 +1,5 @@
 {
+	"autoupdate": false,
 	"monaco": {
 		"editorOptions": {
 			"minimap": {
@@ -16,5 +17,11 @@
 	"theme": "dark",
 	"tutorial": false,
 	"cwd": "/Users/ajgon/Nextcloud/notable",
-    "telemetry": false
+	"telemetry": false,
+	"Options": {
+		"editor": {
+			"lineNumbers": "off",
+			"wordWrap": "off"
+		}
+	}
 }
