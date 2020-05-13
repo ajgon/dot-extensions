@@ -21,7 +21,7 @@
 	"Options": {
 		"editor": {
 			"lineNumbers": "off",
-			"wordWrap": "off"
+			"wordWrap": "bounded"
 		}
 	}
 }

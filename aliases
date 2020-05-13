@@ -103,3 +103,7 @@ alias youtube-dl-audio='youtube-dl --ignore-errors --output "%(title)s.%(ext)s" 
 
 # mutagen
 alias mutagen='docker run --rm -it -v ${PWD}:/data deedeex/mutagen'
+
+# trivy
+alias trivy='docker run --rm -v ${HOME}/.cache:/root/.cache/ aquasec/trivy'
+alias trivy='docker run --rm -v ${HOME}/.cache:/root/.cache -v ${PWD}:/data -w /data aquasec/trivy'
