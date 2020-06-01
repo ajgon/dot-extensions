@@ -28,4 +28,5 @@ pkg.init() {
     unset file
 
     export GNUPGHOME=${XDG_CONFIG_HOME}/gnupg
+    export SOLARGRAPH_CACHE=${XDG_CACHE_HOME}/solargraph
 }
