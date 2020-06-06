@@ -232,3 +232,11 @@ true-colors() {
         printf "\n";
     }'
 }
+
+batcat() {
+    (which bat > /dev/null 2>&1 && bat -p $@) || cat $@
+}
+
+exals() {
+    (which exa > /dev/null 2>&1 && exa $@) || ls $@
+}

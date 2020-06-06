@@ -87,10 +87,10 @@ alias tmk="tmux kill-session -t $1"
 alias git=hub
 
 # cat
-alias cat="bat -p"
+alias cat="batcat"
 
-# du
-alias du="ncdu -rr"
+# ls
+alias ls="exals"
 
 # preview
 alias preview="fzf --preview 'bat --color \"always\" {}'"
@@ -108,3 +108,6 @@ alias mutagen='docker run --rm -it -v ${PWD}:/data deedeex/mutagen'
 # trivy
 alias trivy='docker run --rm -v ${HOME}/.cache:/root/.cache/ aquasec/trivy'
 alias trivy='docker run --rm -v ${HOME}/.cache:/root/.cache -v ${PWD}:/data -w /data aquasec/trivy'
+
+# subliminal
+alias subliminal='docker run --rm -v ${PWD}:/data deedeex/subliminal'
