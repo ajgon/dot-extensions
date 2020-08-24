@@ -87,7 +87,7 @@ alias tmk="tmux kill-session -t $1"
 alias git=hub
 
 # cat
-alias cat="batcat"
+alias cat="bat"
 
 # ls
 alias ls="exals"
