@@ -16,6 +16,7 @@ pkg.link() {
     fs.link_file "${PKG_PATH}/extra.$(os.platform)" "${config_home}/extra.$(os.platform)"
     fs.link_file "${PKG_PATH}/functions.$(os.platform)" "${config_home}/functions.$(os.platform)"
     fs.link_file "${PKG_PATH}/kitty.$(os.platform)" "${config_home}/kitty"
+    fs.link_file "${PKG_PATH}/alacritty.$(os.platform)" "${config_home}/alacritty"
     fs.link_file "${PKG_PATH}/notable.json" "$ELLIPSIS_HOME/.notable.json"
 }
 
