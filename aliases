@@ -113,4 +113,4 @@ alias trivy='docker run --rm -v ${HOME}/.cache:/root/.cache -v ${PWD}:/data -w /
 alias subliminal='docker run --rm -v ${PWD}:/data deedeex/subliminal'
 
 # orgmode
-alias orgmode='emacs -fn "Source Code Pro:style=Regular:size=15" ~/Nextcloud/sync/org-mode/private.org &'
+alias orgmode='emacs ~/Nextcloud/sync/org-mode/private.org &'
